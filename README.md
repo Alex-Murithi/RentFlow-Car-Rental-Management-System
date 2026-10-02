@@ -15,6 +15,7 @@ The system manages vehicles, customers, rentals, payments, returns, late fees, a
 
 __Project Structure__
 
+```text
 rentflow/
 │
 ├── main.py            # Demo run
@@ -24,6 +25,7 @@ rentflow/
 ├── payment.py         # Payment types
 ├── rental_system.py   # CarRentalSystem manager
 └── README.md
+```
 
 __Features__
 Register customers with ID, phone, national ID, and driving licence.
@@ -32,7 +34,7 @@ Add vehicles (Economy, SUV, Luxury) with pricing rules.
 
 Rent and return vehicles, with late fees and damage charges.
 
-Process payments via M-Pesa, Card, or Cash.
+Process payments via M-Pesa, Card, or Cash money.
 
 Track revenue securely.
 
